@@ -1,5 +1,8 @@
+#importing the library 
 import pandas as pd
 import numpy as np
+
+#loading the test and train in system
 
 zbay_traindata = pd.read_csv(r"C:\akshay\hackthon\train.csv",engine = "python")
 zbay_testdata = pd.read_csv(r"C:\akshay\hackthon\test.csv",engine = "python")
